@@ -1,0 +1,31 @@
+{
+  "name": "grunt_learn",
+  "version": "2.0.0",
+  "description": "利用grunt进行css、js的检查、合并和压缩",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/manlili/grunt_learn.git"
+  },
+  "keywords": [
+    "grunt_learn"
+  ],
+  "author": "manlili",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manlili/grunt_learn/issues"
+  },
+  "homepage": "https://github.com/manlili/grunt_learn#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-csslint": "^2.0.0",
+    "grunt-contrib-cssmin": "^2.0.0",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-uglify": "^2.2.0",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}
